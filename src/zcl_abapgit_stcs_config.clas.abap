@@ -1,0 +1,11 @@
+CLASS zcl_abapgit_stcs_config DEFINITION
+  PUBLIC
+  INHERITING FROM cl_stc_scenario_config
+  FINAL
+  CREATE PUBLIC.
+
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS zcl_abapgit_stcs_config IMPLEMENTATION.
+ENDCLASS.

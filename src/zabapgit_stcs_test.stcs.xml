@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_STCS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <STC_SCN_ATTR>
+    <STC_SCN_ATTR>
+     <SCENARIO_ID>ZABAPGIT_STCS_TEST</SCENARIO_ID>
+     <ATTR_NAME>SAPTAGS</ATTR_NAME>
+     <ATTR_VALUE>ABAPGIT_TEST</ATTR_VALUE>
+    </STC_SCN_ATTR>
+   </STC_SCN_ATTR>
+   <STC_SCN_HDR>
+    <STC_SCN_HDR>
+     <SCENARIO_ID>ZABAPGIT_STCS_TEST</SCENARIO_ID>
+     <BUILD_NO>00001</BUILD_NO>
+     <CONFIG_CLASS>ZCL_ABAPGIT_STCS_CONFIG</CONFIG_CLASS>
+    </STC_SCN_HDR>
+   </STC_SCN_HDR>
+   <STC_SCN_HDR_T>
+    <STC_SCN_HDR_T>
+     <SCENARIO_ID>ZABAPGIT_STCS_TEST</SCENARIO_ID>
+     <LANGU>D</LANGU>
+     <DESCR>abapGit STCS Serialisierungstest</DESCR>
+    </STC_SCN_HDR_T>
+    <STC_SCN_HDR_T>
+     <SCENARIO_ID>ZABAPGIT_STCS_TEST</SCENARIO_ID>
+     <LANGU>E</LANGU>
+     <DESCR>abapGit STCS serialization test</DESCR>
+    </STC_SCN_HDR_T>
+   </STC_SCN_HDR_T>
+   <STC_SCN_TASKS>
+    <STC_SCN_TASKS>
+     <SCENARIO_ID>ZABAPGIT_STCS_TEST</SCENARIO_ID>
+     <SEQUENCE>00010</SEQUENCE>
+     <TASKTYPE>CLAS</TASKTYPE>
+     <TASKNAME>ZCL_ABAPGIT_STCS_TASK_1</TASKNAME>
+     <PHASE>PREPARE</PHASE>
+    </STC_SCN_TASKS>
+    <STC_SCN_TASKS>
+     <SCENARIO_ID>ZABAPGIT_STCS_TEST</SCENARIO_ID>
+     <SEQUENCE>00020</SEQUENCE>
+     <TASKTYPE>CLAS</TASKTYPE>
+     <TASKNAME>ZCL_ABAPGIT_STCS_TASK_2</TASKNAME>
+     <PHASE>VERIFY</PHASE>
+    </STC_SCN_TASKS>
+   </STC_SCN_TASKS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
